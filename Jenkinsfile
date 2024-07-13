@@ -52,7 +52,7 @@ pipeline {
                     echo "E2E Test Stage"
                     npm install -g serve
                     serve -s build
-                    npx playright tests 
+                    npx playright test
                 '''
             }
         }
